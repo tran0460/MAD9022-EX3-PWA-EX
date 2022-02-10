@@ -1,0 +1,33 @@
+/* add a Google Font import */
+@import url(  "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif; /* need to add a Google font */
+  font-weight: 300;
+  background-color: #222;
+  color: #eee;
+}
+body {
+  min-height: 100vh;
+  padding: 1rem 2rem;
+}
+.offline {
+  /* something visual about being offline */
+  background-color: #123455;
+}
+a[href],
+a:link,
+a:active,
+a:visited {
+  color: orangered;
+}
+img {
+  width: 100%;
+}
